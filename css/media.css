@@ -1,0 +1,201 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+		.header-top-block{
+			margin-bottom: 300px;
+		}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+		.header-top-block{
+			margin-bottom: 200px;
+		}
+		.title-block{
+			float:none;
+			width: 60%;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.title-block h1::after{
+			display: none;
+		}
+		.xs-marg{
+			margin:30px auto 50px;
+		}
+		.bx-wrapper .bx-prev {
+ 		 	left: 5px !important;
+		}
+		.bx-wrapper .bx-next {
+  			right: 5px !important;
+		}
+		.member-post{
+			margin-bottom: 40px;
+		}
+		.blog-img{
+			margin:4% auto;
+	}
+	.message{
+		margin-bottom: 25px;
+	}
+	.contact-form button{
+		display: block;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.title-block h1{
+		font-size: 8vw;
+		margin-bottom: 45px;
+	}
+	.feature-block{
+		margin: 70px auto 30px;
+		width: 51%;
+		min-width: 271px;
+		min-height: 195px;
+		text-align:center; 
+    }
+    .sl-text{
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.facts-block-right{
+		display: none;
+	}
+	.facts-block-left{
+		position: static;
+		width: 240px;
+		padding-top: 40px;
+		margin:0 auto;
+	}
+	.blogtext-block{
+		padding:30px 25px;
+	}
+	.xs-wrap{
+		border:1px solid #000;
+	}
+	.contact-form button{
+		margin-bottom: 35px;
+	}
+	
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.menu{
+		display: none;
+		position: absolute;
+		background:rgba(204,204,204,.5);
+		top:90px;
+		left:5%;
+		right:5%;
+		text-align: center;
+		border-radius:5px;
+	}
+	.menu li{
+		display: block;
+		margin-right: 0;
+		border-radius:5px;
+	}
+	.menu li:hover{
+		background:#fff;
+		color:#000;
+	}
+	.menu li a:hover{
+		color:#000;
+	}
+	.menu li a::after{
+		display: none;
+	}
+	i.fa-bars{
+		display: block;
+	}
+	.title-block{
+		width: 75%;
+	}
+	.title-block h1{
+		font-size: 10vw;
+	}
+	.title-block p{
+		font-size: 16px;
+	}
+	.first-btn{
+		width: 220px;
+	}
+	.feature-block{
+		width: 81%;
+	}
+	.blog-title{
+		font-size: 20px;
+	}
+	.blog-text{
+		font-size: 13px;
+	}
+	.blog-img{
+		min-height: 100px;
+	}
+
+	
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	i.fa-bars{
+		line-height: 30px;	
+	}
+	.intro-block h2{
+		padding-top:80px;
+		padding-bottom: 45px;
+	}
+	.intro-block p{
+		font-size: 14px;
+		line-height: 27px;
+	}
+	.cite-author{
+		display: inline-block;
+		margin-bottom: 30px;
+	}
+	.tweet-text{
+		font-size: 18px;
+	}
+	.footer-menu li{
+		padding:10px;
+	}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.menu{
+		display:block!important;
+		
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
